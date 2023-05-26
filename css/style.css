@@ -41,11 +41,11 @@ body {
   }
   
   .contact-info span {
+    padding: 100px;
     display: flex;
     align-items: center;
     flex-direction: column;
     text-align: center;
-    padding: 50px;
   }
   
   .contact-info span img {
@@ -88,5 +88,8 @@ body {
   @media screen and (max-width: 1000px) {
     .content {
         padding: 50px 20px;
+    }
+    .contact-info span {
+      padding: 20px;
     }
 }
